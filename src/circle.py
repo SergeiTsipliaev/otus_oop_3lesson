@@ -1,9 +1,8 @@
 import math
-from abc import ABC
 from src.figure import Figure
 
 
-class Circle(Figure, ABC):
+class Circle(Figure):
     def __init__(self, r):
         if r <= 0:
             raise ValueError("Not available with minus or '0' !!!")
