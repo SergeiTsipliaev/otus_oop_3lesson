@@ -18,4 +18,4 @@ class Triangle(Figure, ABC):
 
     @property
     def get_perimetr(self):
-        return self.side_b + self.side_b + self.side_c
+        return self.side_a + self.side_b + self.side_c
